@@ -36,6 +36,8 @@ If you don’t have the code command, you can enable it in VSCode or skip to Opt
 
 #### Step 3: Open the Command Palette and select Ask Docker AI for a list of questions to get started
 
+![Demo of Docker AI](1-docker-ai-command.gif)
+
 #### Valuable Links
 Install process demo (30 sec max)
 Ask Assistant demo (Summarization)
