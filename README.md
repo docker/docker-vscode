@@ -17,7 +17,7 @@ And that’s about it! After just 90 minutes of your time over a few months, you
 ### Installation Instructions
 
 #### Step 1: Download Extension File
-Download .vsix file 
+Download [docker-ai.vsix](https://github.com/docker/docker-ai/releases/download/pre-release/docker-ai.vsix) pre-release file 
 
 #### Step 2: Enable Extension in VSCode
 **Option 1: Via the command line**
