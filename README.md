@@ -17,7 +17,7 @@ And that’s about it! After just 90 minutes of your time over a few months, you
 ### Installation Instructions
 
 #### Step 1: Download Extension File
-Download [docker-ai.vsix](https://github.com/docker/docker-ai/releases/download/pre-release/docker-ai.vsix) pre-release file 
+Download [latest vsix](https://github.com/docker/docker-ai/releases) pre-release file 
 
 #### Step 2: Enable Extension in VSCode
 **Option 1: Via the command line**
@@ -34,11 +34,4 @@ If you don’t have the code command, you can enable it in VSCode or skip to Opt
 4. Select .VSIX file downloaded in Step 1
 5. Hit the “Reload Now” button in the notification at the bottom right corner
 
-#### Step 3: Open the Command Palette and select Ask Docker AI for a list of questions to get started
-
-![Demo of Docker AI](1-docker-ai-command.gif)
-
-#### Valuable Links
-Install process demo (30 sec max)
-Ask Assistant demo (Summarization)
 
