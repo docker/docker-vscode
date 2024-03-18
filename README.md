@@ -1,31 +1,19 @@
-# Docker AI
+# Docker VSCode Limited Early Access
+This is an early access preview to VSCode extension features by Docker. Content in this repository is changing quickly, and is therefore open to feedback with the caveat that features may come and go. Bugs are expected.
 
-At Docker, our community of developers is our most valued partnership. By being part of this EA program, you’re agreeing to collaborate with us in building solutions that increase your time spent on innovation and less time on everything else! 
-
-You’ve been selected to participate in the Docker AI initial market research feedback based on your submission. We know you’re busy and value your time, so here’s what you can expect and plan for:
-
-1. Docker will provide you access to this product and simple instructions to get started.
-2. Your feedback is critical, thus participating in (2) interviews and (2) surveys are required to maintain access to the product.
-3. Participation in (2) interviews of 30 to 45 min max in duration; we’re happy to work around your schedule.
-4. Surveys, which will take 3 to 5 minutes to complete, approximately every 1 to 2 weeks for the first 90 days of usage; please complete the surveys as soon as possible.
-5. We may also send occasional requests for feedback in varying formats after the first 3 months, but access isn’t contingent on participation in these. If you have the time, we’d greatly appreciate your thoughts.
-
-And that’s about it! After just 90 minutes of your time over a few months, you’ll have assisted us (pun intended) in developing a great solution and user experience. Let’s get started! 
-
-## VSCode Extension Setup & Installation
-
-### Installation Instructions
+## Installation Instructions
 
 #### Step 1: Download Extension File
-Download [latest vsix](https://github.com/docker/docker-ai/releases) pre-release file 
+Download [latest vsix](https://github.com/docker/docker-ai/releases) pre-release file.
 
 #### Step 2: Enable Extension in VSCode
+
 **Option 1: Via the command line**
 
 Must have VSCode code command in PATH:
 `code --install-extension <PATH_TO_DOWNLOADED_.VSIX> --force`
 
-If you don’t have the code command, you can enable it in VSCode or skip to Option 2 below.
+If you don’t have the code command, you can [enable it in VSCode](https://code.visualstudio.com/docs/editor/command-line#_code-is-not-recognized-as-an-internal-or-external-command) or just use Option 2 below.
 
 **Option 2: Via the command palette in VSCode**
 1. Type `>` into top search bar
@@ -34,4 +22,8 @@ If you don’t have the code command, you can enable it in VSCode or skip to Opt
 4. Select .VSIX file downloaded in Step 1
 5. Hit the “Reload Now” button in the notification at the bottom right corner
 
+**Option 3: Via VSCode GUI**
+Extension Menu -> `...` dropdown -> `Install from VSIX`
+
+<img width="570" alt="Screenshot 2024-03-18 at 11 53 58 AM" src="https://github.com/docker/docker-ai/assets/5000430/1cf2b904-f341-4a84-aceb-1933c51efe68">
 
