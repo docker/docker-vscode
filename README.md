@@ -7,7 +7,10 @@ The LSP requires [Docker](https://www.docker.com/products/docker-desktop/) to ac
 ## Installation
 
 ### Step 1: Download Extension File
-Download the [latest release](https://github.com/docker/docker-vscode/releases) `.vsix` bundle.
+- Language Features: https://github.com/docker/docker-vscode/releases/tag/lsp-v1.29.5-alpha
+- Generate runnable markdown/Makefile runbook: https://github.com/docker/docker-vscode/releases/tag/runbook-v0.0.1
+
+Download the `.vsix` bundle.
 
 ### Step 2: Enable Extension in VSCode
 
