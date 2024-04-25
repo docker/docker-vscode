@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [<fork>1.29.5-alpha] 2024-4-25
+
+### Added
+* [Dockerfile Linting] Full markdown support
+
 ## [<fork>1.29.5-alpha] 2024-4-24
 
 This extension is now forked from https://github.com/microsoft/vscode-docker with enhanced language featues. 
