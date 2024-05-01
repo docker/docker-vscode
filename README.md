@@ -1,19 +1,19 @@
 # Docker-VSCode
-A collection of experimental Docker extensions
+
+A proposed update to the [official VSCode extension for Docker](https://github.com/microsoft/vscode-docker).
 
 ## What is this project?
 
-We are not forking the current [vscode docker extension](https://github.com/microsoft/vscode-docker). 
+We are extending the current VSCode extension for Docker with a small set of foundational features.  This
+is not a fork of the current extension. It is a preview of the contribution that we are proposing
+to make.
 
-This is intended to be a contribution back to the original extension.  
-We are just providing this project to get early feedback on that contribution.  
-
-The proposed pull request branch is [here](https://github.com/docker/vscode-upstream-temp/commits/cm/docker-stuff-2).
-
-Initially, there are two features added to the Dockerfile language service.
+Besides the foundational elements, we're also adding two new features to the Dockerfile language service.
 
 1.  Integration of Scout recommendations to the Dockerfile language service.
 2.  Integration of the new support for Docker's new official Dockerfile linting support.
+
+![lsp](https://github.com/docker/docker-vscode/releases/download/lsp-v1.29.6/CleanShot.2024-05-01.at.11.50.30.gif)
 
 ## Getting started
 
@@ -25,9 +25,9 @@ Docker extension to VSCode.
 ## What is this project?
 
 Uses generative AI, and project analysis, to add generate a Docker specific
-runbook-style README.md to your project. See the following for an example.
+runbook-style README.md to your project. See the following for an example:
 
-TODO:  add gif
+![runbook4](https://github.com/docker/docker-vscode/assets/5000430/6da2c934-35f7-470d-962e-a2c9a43a335b)
 
 ## Getting started
 
