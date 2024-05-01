@@ -1,15 +1,30 @@
-# Docker VSCode Limited Early Access
-This is an early access preview of experimental VSCode extension features by Docker. Content in this repository is changing quickly, and is therefore open to feedback with the caveat that features may come and go. Bugs are expected.
+# Docker-VSCode
+A collection of experimental Docker extensions
 
-## Dependencies
-The LSP requires [Docker](https://www.docker.com/products/docker-desktop/) to activate inside of Dockerfiles
+## What is this project?
 
-## Installation
+Quicklinks:
+- **[Language features](./lsp)**
+- [Runnable markdown](./runbook-makefiles)
+
+We are not forking the current [vscode docker extension](https://github.com/microsoft/vscode-docker). 
+
+This is intended to be a contribution back to the original extension.  
+We are just providing this project to get early feedback on that contribution.  
+
+The proposed pull request branch is [here](https://github.com/docker/vscode-upstream-temp/commits/cm/docker-stuff-2).
+
+Initially, there are two features added to the Dockerfile language service.
+
+1.  Integration of Scout recommendations to the Dockerfile language service.
+2.  Integration of the new support for Docker's new official Dockerfile linting support.
+
+## Get started
 
 ### Step 1: Download Extension File
 Two VSCode extensions are available:
-- Dockerfile Language Features: https://github.com/docker/docker-vscode/releases/tag/lsp-v1.29.5-alpha
-- Generate runnable makefile in markdown: https://github.com/docker/docker-vscode/releases/tag/runbook-v0.0.2
+- Dockerfile Language Features: https://github.com/docker/docker-vscode/releases/tag/lsp-v1.29.6-alpha
+- Generate runnable makefile in markdown: https://github.com/docker/docker-vscode/releases/tag/runbook-v0.0.3
 
 Download the `.vsix` bundle.
 
@@ -36,7 +51,3 @@ Extensions -> `...` menu -> `Install from VSIX`
 2. Select `Extensions: Install from VSIX...`
 3. Select `.vsix` file downloaded
 4. Hit the “Reload Now” button in the notification at the bottom right corner
-
-## Usage
-Open a Dockerfile to get diagnostics
-
