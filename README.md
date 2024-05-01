@@ -25,9 +25,10 @@ Docker extension to VSCode.
 ## What is this project?
 
 Uses generative AI, and project analysis, to add generate a Docker specific
-runbook-style README.md to your project. See the following for an example.
+runbook-style README.md to your project. See the following for an example:
 
-TODO:  add gif
+![runbook4](https://github.com/docker/docker-vscode/assets/5000430/6da2c934-35f7-470d-962e-a2c9a43a335b)
+
 
 ## Getting started
 
