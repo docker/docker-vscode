@@ -5,11 +5,8 @@ we are proposing to be contributed into the official Docker vscode extension.
 ## Installing
 
 ### Step 1: Download Extension File
-Two VSCode extensions are available:
-- Dockerfile Language Features: https://github.com/docker/docker-vscode/releases/tag/lsp-v1.29.6-alpha
-- Generate runnable makefile in markdown: https://github.com/docker/docker-vscode/releases/tag/runbook-v0.0.3
 
-Download the `.vsix` bundle.
+- Download the latest .vsix bundle from: https://github.com/docker/docker-vscode/releases/
 
 ### Step 2: Enable Extension in VSCode
 

@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [<fork>1.29.7-alpha] 2024-4-25
+
+Bugfixes & performance optimizations
+
 ## [<fork>1.29.5-alpha] 2024-4-25
 
 ### Added
